@@ -1,4 +1,4 @@
-import NonFungible from "../contracts/NonFungible.cdc"
+import NonFungible from "0x7f732e4481b89c1e (47a1d0b91c0b85215c51a55891f9fad0596022e1cc9018b15cf7bfb84770d048)";
 
 transaction {
 
