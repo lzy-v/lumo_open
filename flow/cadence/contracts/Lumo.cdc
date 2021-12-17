@@ -6,7 +6,7 @@
  * 
 */
 
-import FungibleToken from "0x7f732e4481b89c1e (a5cc834a4a2d6dc1ec82d75a93b068d67f462569b3bacfe1673568c8ef9b88b7)" // "./FungibleToken.cdc"
+import FungibleToken from "0x7f732e4481b89c1e" // "./FungibleToken.cdc"
 
 pub contract Lumo: FungibleToken {
 
