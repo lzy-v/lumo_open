@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+
+	padding: 0;
+
+	/** background image */
+	/* source:  
+	https://giphy.com/gifs/gilmoregirls-netflix-gilmore-girls-3ofT5X7GY93iNArORq  
+	https://giphy.com/gifs/coelho-fabiocoelho-fpc1987-H7llxoUnid1u27TkaH
+	*/
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+
+	/*background: rgba(0,0,0,1.0);  /*fallback colour. Make sure this is just one solid colour.
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.9)); */
+	height: 100vh;
+
+	/*
+	@Use:  full screen gradient
+	@Doc:  https://developpaper.com/css-to-achieve-background-gradient-and-automatic-full-screen-code/
+	*/
+	/*background-image: -webkit-linear-gradient(60deg,rgba(218, 169, 215, 0.637),rgba(128, 174, 235, 0.904));*/
+	/*top: 0;*/
+
+
+	/**
+	* 
+	* @Use: full screen gif
+	* @Ref: https://mashable.com/article/how-to-screen-record-mac
+	* 
+	*/ 
+	/*background-image: url("./tattoo.gif");*/
+
+	/* fonts  */
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	monospace;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-corner {background-color: transparent;}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rba(0,0,0,0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rba(0,0,0,0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rba(0,0,0,0);
+}
+
+@font-face {
+    font-family: "NeueMachina-Ultralight";
+    src: url(./font/NeueMachina-Ultralight.otf);
+}
+@font-face {
+    font-family: "NeueMachina-Light";
+    src: url(./font/NeueMachina-Light.otf);
+}
+@font-face {
+    font-family: "NeueMachina-Medium";
+    src: url(./font/NeueMachina-Medium.otf);
+}
+@font-face {
+    font-family: "NeueMachina-Regular";
+    src: url(./font/NeueMachina-Regular.otf);
+}
+@font-face {
+    font-family: "NeueMachina-Bold";
+    src: url(./font/NeueMachina-Bold.otf);
+}
+@font-face {
+    font-family: "NeueMachina-Black";
+    src: url(./font/NeueMachina-Black.otf);
+}
+@font-face {
+    font-family: "NeueMachina-Ultrabold";
+    src: url(./font/NeueMachina-Ultrabold.otf);
+}
+.match{
+    @media (max-width: 767px) {
+        display: "none" !important;
+      }
+}
+
+
